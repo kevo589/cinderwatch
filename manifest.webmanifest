@@ -1,0 +1,19 @@
+{
+  "name": "Cinderwatch",
+  "short_name": "Cinderwatch",
+  "description": "A 3D isometric tower defense: hold the beacon against endless monsters. A fork of Cinderwatch by Kevin Ngo.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#020308",
+  "theme_color": "#020308",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

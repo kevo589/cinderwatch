@@ -1,0 +1,39 @@
+# OS and editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# recordings and captures made by tools/
+tools/shots/
+*.video.mp4
+*.wav
+clips/
+
+# secrets and machine-specific files: never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+local.properties
+*.secret
+secrets.*
+credentials*.json
+
+# logs, dumps and local agent / tool state
+*.log
+*.har
+*cookies*.txt
+*cookies*.json
+*localstorage*.json
+.claude/
+brain/
+node_modules/
+__pycache__/
+*.pyc
